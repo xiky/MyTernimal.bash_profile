@@ -17,7 +17,7 @@ export LS_OPTIONS='--color=auto' # 如果没有指定，则自动选择颜色
 export CLICOLOR='Yes' # 是否输出颜色
 export LSCOLORS='fxfxcxdxbxegedabagGxGx' # 指定颜色
 
-# \h:\W \u\$
+# \h:\w \u\$
 #export PS1='\[\033[01;33m\]\u@\h\[\033[01;31m\] \w\$\[\033[00m\] '
 export PS1='\[\033[01;33m\]\u@\h\[\033[01;31m\] \w\$\[\e[m\] '
 
