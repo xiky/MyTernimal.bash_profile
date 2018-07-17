@@ -18,7 +18,7 @@ export CLICOLOR='Yes' # 是否输出颜色
 export LSCOLORS='fxfxcxdxbxegedabagGxGx' # 指定颜色
 
 # \h:\W \u\$
-#export PS1='\[\033[01;33m\]\u@\h\[\033[01;31m\] \W\$\[\033[00m\] '
+#export PS1='\[\033[01;33m\]\u@\h\[\033[01;31m\] \w\$\[\033[00m\] '
 export PS1='\[\033[01;33m\]\u@\h\[\033[01;31m\] \w\$\[\e[m\] '
 
 # 2个字母一组分别代表[字体颜色]和[背景颜色]
